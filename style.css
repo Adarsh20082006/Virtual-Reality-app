@@ -1,0 +1,271 @@
+.logo {
+    height: 40px;
+}
+
+.banner-section {
+    height: 100vh;
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.view-more-btn {
+    align-self: center;
+}
+
+.feature-card-content {
+    /* background-color: whitesmoke; */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px rgb(149, 149, 149);
+
+}
+
+.feature-card-img {
+    height: 100px;
+}
+
+.feature-catd-title {
+    font-size: 25px;
+    color: #1f2933;
+}
+
+.feature-card-desciption {
+    font-size: 16px;
+    color: #7b8794;
+}
+
+.bold-word {
+    font-weight: 600;
+}
+
+
+.kit-img {
+    height: 75%;
+    width: 100%
+}
+
+.kit-contents {
+    height: 100%;
+    box-shadow: 0px 0px 3px rgb(149, 149, 149);
+    padding: 10px
+}
+
+.kit-title {
+    font-size: 22px;
+    color: #1f2933;
+    height: 25%;
+
+}
+
+.kit-items {
+
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.controllers-img,
+.optics-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.optics-card,
+.controllers-card {
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px rgb(149, 149, 149);
+    border-radius: 5px;
+}
+
+.optics-title,
+.controllers-title {
+    font-size: 25px;
+    color: #1f2933;
+    margin-top: 10px;
+}
+
+.optics-description,
+.controllers-description {
+    font-size: 17px;
+    color: #7b8794;
+}
+
+.contact-us-img {
+    width: 50%
+}
+
+.contact-us-card {
+    background-color: #222b36;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.contact-us-heading {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-us-section {
+    margin-bottom: 10px;
+}
+
+.trending-title {
+    color: #959ead;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.trending-link,
+.trending-link:hover {
+    color: #1754a1;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tending-img {
+    width: 100%;
+}
+
+.trending-card-content {
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px rgb(149, 149, 149);
+    border-radius: 5px;
+}
+
+.trending-section {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.trending-description {
+    color: #323f4b;
+    font-size: 20px
+}
+
+/* .product-card-1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.product-card-2 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png");
+    background-size: contain;
+    height: 50vh;
+} */
+.product-img {
+    width: 100%;
+    size: cover;
+}
+
+.product-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 40px
+}
+
+.product-content {
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px rgb(149, 149, 149);
+    border-radius: 5px;
+}
+
+.product-rate {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footer-section {
+    background-color: #202b36;
+    color: #959ead;
+    padding: 20px;
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.icons {
+    font-size: 25px;
+    margin-top: 5px;
+
+}
+
+.icons span {
+    margin: 5px;
+    color: #7b8794
+}
+
+.footer-second-section,
+.footer-third-section {
+    font-size: 22px;
+}
+
+.footer-second-section div {
+    margin-bottom: 15px;
+}
+
+a,
+a:hover {
+    color: #959ead;
+}
+
+hr {
+    color: #7b8794;
+    background-color: #7b8794;
+}
+
+.feature-heading,
+.kit-heading,
+.optics-controllers-heading,
+.trending-heading,
+.product-heading,
+.contact-us-heading,
+.features {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (width>=768px) {
+    .footer-first-section {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .footer-logo {
+        align-self: flex-start;
+    }
+
+    .banner-section {
+        justify-content: center;
+        align-items: flex-end;
+        text-align: right;
+
+    }
+
+    #view-more-btn {
+        align-self: flex-end;
+        justify-self: end;
+        margin-top: 20px;
+    }
+}
